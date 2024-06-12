@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Check Even or Odd Number</title>
+</head>
+<body>
+
+<script>
+    
+    function checkEvenOrOdd(number) {
+        if (number % 2 == 0) {
+            return "Chẵn";
+        } else {
+            return "Lẻ";
+        }
+    }
+
+    
+    var userInput = prompt("Nhập một số:");
+
+    
+    var number = parseInt(userInput);
+
+    
+    var result = checkEvenOrOdd(number);
+    document.write("Con số " + number + " là " + result + ".");
+</script>
+
+</body>
+</html>
