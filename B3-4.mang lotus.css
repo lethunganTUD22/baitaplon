@@ -1,0 +1,25 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 13pt;
+  line-height:1.5;
+  text-align: justify;
+}
+
+  .tr:nth-child(even) {
+    background-color: #dddddd;
+  }  
+  ul {
+    a:link {
+  color: rgba(190, 103, 183, 0.689);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+    color: rgb(228, 228, 19);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  

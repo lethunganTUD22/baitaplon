@@ -1,0 +1,82 @@
+.button1 {
+    background-color: #04AA6D;
+    border: none;
+    
+    padding: 15px 25px;
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    
+
+} 
+  .button1+.button1 {
+    float: right;
+    text-decoration: none;
+}
+  .button1:hover {
+    background-color: #026f47;
+    color: white;
+}
+  .relative{
+    width: 1040px;
+    height:380px;
+    position: relative;
+    margin: -20px;
+    background: rgb(215, 215, 215);
+    border-radius: 4px;
+   
+}
+ 
+.absolute{
+    position: absolute;
+    width: 1000px;
+    height:180px;
+    background:white;
+    right: 20px;
+    border-left: 5px solid #026f47;
+}
+.nav {
+  background-color: rgba(248, 248, 170, 0.877); 
+  text-align: left;
+  margin: 0;
+  font-size: 16px;
+  padding: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family:'Segoe UI';
+  font-size: 13pt;
+  line-height:1.5;
+}
+ul {
+  font-size: 12pt;
+  line-height:1.5;
+}
+div.a { 
+  text-indent: 20px;
+}
+.button2 {
+  background-color: #ffffff;
+  border: 1px solid black;
+  color: rgb(0, 0, 0);
+  padding: 15px 25px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-left: 250px;
+} 
+.button2:hover {
+  background-color: #c7cac9;
+  color: rgb(0, 0, 0);
+}

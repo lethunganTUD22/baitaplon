@@ -1,0 +1,20 @@
+h2{
+    border-bottom: 0.1px dotted grey; 
+}
+a{
+    color: #41455e;
+    text-decoration: none;
+}
+ul{
+    padding: 30px;
+}
+a:hover{
+    color: #286a90;
+}
+body{
+    border: 1px solid gainsboro;
+    padding: 50px;
+    margin: 10px auto 10px auto;
+       
+}
+

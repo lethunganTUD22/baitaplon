@@ -1,0 +1,33 @@
+.khung {
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid black;
+  }
+  .hop1 {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 100px;
+    
+  }
+  
+  .hop2 {
+    width: 100px;
+    height: 100px;  
+    padding: 10px;
+    border: 1px solid blue;
+    text-align: center;
+    line-height: 100px;
+    
+  }
+  .hop3 {
+    width: 100px;
+    height: 100px;  
+    padding: 10px;
+    border: 1px solid green;
+    text-align: center;
+    line-height: 100px;
+    
+  }
