@@ -63,11 +63,7 @@ html{
     border-bottom: 3px solid pink;
     color: pink;
 }
-@media all and (max-width: 480px) {
-    .header{
-        width: 480px;
-    }
-}
+
 
 section{
     min-height: 100vh;
